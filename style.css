@@ -80,7 +80,8 @@ header {
 }
 
 /*Recipe Section */
-.recipe-area {
+.recipe-area,
+.social {
     padding: 3% 5%;
 }
 
@@ -96,7 +97,8 @@ header {
 .recipe-text p {
     padding-bottom: 5%;
 }
-.recipe {
+.recipe,
+.social {
     display: flex;
 }
 .recipe1,
@@ -108,4 +110,34 @@ header {
 }
 .recipe1 {
     margin-right: 2%;
+}
+/* Socail Section*/
+.social {
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 15%);
+    margin: 2% 5% 5%;
+}
+.social div {
+    width: 33.3%;
+    text-align: center;
+}
+.social h3 {
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+.social p {
+    font-size: 16px;
+}
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #000;
+    padding: 5%;
+}
+footer h3 {
+    font-size: 30px;
+    color: #5b5b5b;
+}
+footer p {
+    color: #fff;
 }
