@@ -35,6 +35,9 @@ p {
 .half-width {
     width: 50%;
 }
+img {
+    width: 100%;
+}
 /* Header Section */
 header {
     display: flex;
@@ -68,7 +71,41 @@ header {
 .about-image {
     padding: 5% 15% 0 5%;
 }
+.about-image img {
+    width: fit-content;
+}
 .about-text p {
     line-height: 36px;
     padding-bottom: 5%;
+}
+
+/*Recipe Section */
+.recipe-area {
+    padding: 3% 5%;
+}
+
+.recipe-text {
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.recipe-text h2 {
+    font-size: 36px;
+}
+.recipe-text p {
+    padding-bottom: 5%;
+}
+.recipe {
+    display: flex;
+}
+.recipe1,
+.recipe2 {
+    padding: 1.5%;
+    border: 1px solid #e5e5e5;
+    border-radius: 7%;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 15%);
+}
+.recipe1 {
+    margin-right: 2%;
 }
