@@ -76,7 +76,6 @@ header {
     width: fit-content;
 }
 .about-text p {
-    line-height: 36px;
     padding-bottom: 5%;
 }
 
@@ -133,7 +132,7 @@ header {
 footer {
     text-align: center;
     background-color: #000;
-    padding: 5%;
+    padding: 3%;
 }
 footer h3 {
     font-size: 30px;
