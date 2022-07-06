@@ -43,6 +43,7 @@ header {
 .header-text {
     margin-top: auto;
     margin-bottom: auto;
+    padding-top: 5%;
 }
 .header-text p {
     padding: 0 2% 4% 0;
@@ -56,4 +57,18 @@ header {
     position: relative;
     right: 25%;
     width: 110%;
+}
+
+/* About Me Section */
+.about-me {
+    display: flex;
+    background: url(img/bg.png) no-repeat;
+}
+.about-text,
+.about-image {
+    padding: 5% 15% 0 5%;
+}
+.about-text p {
+    line-height: 36px;
+    padding-bottom: 5%;
 }
